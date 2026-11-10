@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Localhost",
+            "type": "shell",
+            "command": "powershell -ExecutionPolicy Bypass -File .\\server.ps1",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
